@@ -104,6 +104,7 @@ public class Server {
             if (ct != null && message.getPrimalac().getFirstname().equals(ct.getLoginUser().getFirstname())){
                 
                 ct.sendMessage(message);
+                
             }
         
         }
